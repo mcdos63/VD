@@ -3,7 +3,7 @@ body {
     background-image: url('https://i.pinimg.com/originals/38/c3/f5/38c3f5ffcdaef5bf8fa8183f2c81a125.jpg '); /* Путь к изображению */
     background-repeat: no-repeat; /* Не повторять изображение */
     background-position: center; /* Центрировать изображение */
-    background-size: cover; /* Заполнить весь экран, сохраняя соотношение сторон */
+    background-size: cover;
     font-family: 'Gill Sans', sans-serif;
     margin: 0; /* Убрать отступы по умолчанию */
     padding: 0; /* Убрать отступы по умолчанию */
@@ -32,7 +32,7 @@ section {
 
 p {
     font-size: 15px;
-    margin: 0; /* Убрать стандартные отступы */
+    margin: 0;
 }
 
 .card {
@@ -45,7 +45,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    position: relative; /* Добавлено для абсолютного позиционирования contact-info */
+    position: relative;
 }
 
 .card:hover {
@@ -72,11 +72,11 @@ p {
 .photo img {
     width: 180px;
     border-radius: 20px;
-    margin-right: 20px; /* Отступ справа от изображения */
+    margin-right: 20px;
 }
 
 .name {
-    margin: 0; /* Убрать стандартные отступы */
+    margin: 0;
     font-size: 24px;
     font-weight: bold;
     color: #333;
