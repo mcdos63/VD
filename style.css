@@ -1,0 +1,89 @@
+body {
+    background-color: black; /* Резервный цвет фона */
+    background-image: url('https://i.pinimg.com/originals/38/c3/f5/38c3f5ffcdaef5bf8fa8183f2c81a125.jpg '); /* Путь к изображению */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: center; /* Центрировать изображение */
+    background-size: cover; /* Заполнить весь экран, сохраняя соотношение сторон */
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0; /* Убрать отступы по умолчанию */
+    padding: 0; /* Убрать отступы по умолчанию */
+}
+
+.main {
+    text-align: center;
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.main:hover {
+    color: #8B0000;
+    text-shadow: 3px 3px 19px yellow;
+    transition: 1s;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 столбца */
+    gap: 20px; /* Расстояние между карточками */
+    padding: 20px; /* Внутренний отступ секции */
+}
+
+p {
+    font-size: 15px;
+    margin: 0; /* Убрать стандартные отступы */
+}
+
+.card {
+    width: 400px;
+    height: 650px;
+    background-color: #00FF7F;
+    border-radius: 20px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative; /* Добавлено для абсолютного позиционирования contact-info */
+}
+
+.card:hover {
+    background-color: #CD853F;
+    transition: 1s;
+}
+
+.contact-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.photo img {
+    width: 180px;
+    border-radius: 20px;
+    margin-right: 20px; /* Отступ справа от изображения */
+}
+
+.name {
+    margin: 0; /* Убрать стандартные отступы */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.info {
+    margin-top: 10px; /* Отступ сверху от изображения */
+    text-align: left;
+    width: 100%;
+}
