@@ -14,7 +14,7 @@ body {
     color: red;
     font-size: 70px;
     font-weight: bold;
-    transition: 1s;
+    transition: 2s;
 }
 
 .main:hover {
@@ -55,6 +55,7 @@ p {
 
 .card:hover .contact-info{
     color: #ffffff;
+    text-shadow: 1px 4px 9px black;
 }
 
 .contact-info {
@@ -97,6 +98,7 @@ p {
 
 .info:last-child {
     margin-top: 10px; /* Отступ сверху от изображения */
+    text-shadow: 1px 1px 3px #008B8B;
     text-align: left;
     width: 100%;
 }
