@@ -81,16 +81,21 @@ p {
 
 .card:hover .photo img {
     width: 185px;
+    transition: 1s;
 }
 
 .name {
     margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+
     font-size: 24px;
     font-weight: bold;
     color: #333;
 }
 
-.info {
+.info:last-child {
     margin-top: 10px; /* Отступ сверху от изображения */
     text-align: left;
     width: 100%;
