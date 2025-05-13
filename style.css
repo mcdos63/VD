@@ -55,7 +55,6 @@ p {
 
 .card:hover .contact-info{
     color: #ffffff;
-    transition: 1s;
 }
 
 .contact-info {
@@ -78,6 +77,10 @@ p {
     width: 180px;
     border-radius: 20px;
     margin-right: 20px;
+}
+
+.card:hover .photo img {
+    width: 185px;
 }
 
 .name {
